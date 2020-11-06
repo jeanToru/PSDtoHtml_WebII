@@ -1,0 +1,14 @@
+body {
+    color: #eaeced;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

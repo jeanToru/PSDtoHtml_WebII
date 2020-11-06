@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.titulo {
+    float: left;
+}
+
+.titulo h2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #606060;
+    margin-bottom: 36px;
+}
+
+#menu {
+    text-decoration: none;
+    float: right;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    float: left;
+}
+
+.list li + li {
+    margin-left: 22px;
+}
+
+.list a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #606060;
+    margin-bottom: 36px;
+}
