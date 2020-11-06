@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
 .titulo {
     float: left;
 }
 
-.titulo h2 {
+.titulo {
     font-size: 16px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
@@ -15,15 +21,19 @@
 
 #menu {
     text-decoration: none;
-    float: right;
+    position: relative;
 }
 
 .list {
     list-style: none;
+    position: absolute;
+    top: 4px;
+    right: 48px;
 }
 
 .list li {
     float: left;
+    padding: 10px;
 }
 
 .list li + li {
@@ -35,4 +45,5 @@
     text-decoration: none;
     color: #606060;
     margin-bottom: 36px;
+    position: absolute;
 }
