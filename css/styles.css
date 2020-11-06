@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -305,21 +306,27 @@ template {
   display: none; }
 
 body {
-  color: #eaeced; }
+  background-color: #eaeced; }
 
 .wrapper {
   width: 600px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0; }
 
 .clearfix::after {
   content: "";
   clear: both;
   display: table; }
 
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative; }
+
 .titulo {
   float: left; }
 
-.titulo h2 {
+.titulo {
   font-size: 16px;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
@@ -328,13 +335,17 @@ body {
 
 #menu {
   text-decoration: none;
-  float: right; }
+  position: relative; }
 
 .list {
-  list-style: none; }
+  list-style: none;
+  position: absolute;
+  top: 4px;
+  right: 48px; }
 
 .list li {
-  float: left; }
+  float: left;
+  padding: 10px; }
 
 .list li + li {
   margin-left: 22px; }
@@ -343,4 +354,56 @@ body {
   font-size: 13px;
   text-decoration: none;
   color: #606060;
-  margin-bottom: 36px; }
+  margin-bottom: 36px;
+  position: absolute; }
+
+.content {
+  margin: 0 auto; }
+
+.box {
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  margin-bottom: 22px; }
+
+.subTitulo {
+  color: #292c34;
+  text-align: center;
+  font-size: 34px;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 60px; }
+
+.info {
+  color: #888;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-left: 100px; }
+
+.link {
+  color: #40aceb; }
+
+.button-green {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #7bb84f;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 14px 28px;
+  border-radius: 5px;
+  margin-left: 226px; }
+
+.button-yellow {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #f5ba1c;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 14px 28px;
+  border-radius: 5px;
+  margin-left: 226px; }
