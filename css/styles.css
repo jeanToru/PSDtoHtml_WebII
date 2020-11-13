@@ -448,6 +448,22 @@ body {
   margin-right: 210px;
   padding: 17px 50px 17px 50px; }
 
+.pink {
+  padding-bottom: 71px;
+  padding-top: 36px; }
+
+.button-pink {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #e02d74;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 210px;
+  margin-right: 210px;
+  padding: 17px 50px 17px 50px; }
+
 .titulo3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 29px;
