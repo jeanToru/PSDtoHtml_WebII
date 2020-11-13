@@ -432,10 +432,33 @@ body {
   margin-right: 210px;
   padding: 17px 50px 17px 50px; }
 
+.white {
+  padding-bottom: 71px;
+  padding-top: 36px; }
+
+.button-white {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  color: #292c34;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 210px;
+  margin-right: 210px;
+  padding: 17px 50px 17px 50px; }
+
 .titulo3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 29px;
   color: #292c34;
+  text-align: center;
+  padding-top: 60px; }
+
+.titulo4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 29px;
+  color: #fff;
   text-align: center;
   padding-top: 60px; }
 
@@ -529,3 +552,10 @@ body {
   position: absolute;
   top: 286px;
   left: 0px; }
+
+.galleria {
+  background-color: #292b33; }
+
+.gallery {
+  padding: 0px 51px 0px 51px;
+  color: #fff; }
