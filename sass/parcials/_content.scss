@@ -7,14 +7,14 @@
 .box {
     background-color: #f9f9f9;
     margin: 0 auto;
-    margin-bottom: 22px;
+    margin-bottom: 6.6%
 }
 .subTitulo {
     color: #292c34;
     text-align: center;
     font-size: 34px;
     font-family: 'Open Sans', sans-serif;
-    padding-top: 60px;
+    padding-top: 4.8%;
 }
 
 .info {
@@ -22,9 +22,10 @@
     font-size: 16px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    padding-top: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-top: 1.6%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 3.5%;
 }
 
 .link {
@@ -32,8 +33,8 @@
 }
 
 .green {
-    padding-bottom: 40px;
-    padding-top: 10px;
+    padding-bottom: 12%;
+    padding-top: 0.1%;
 }
 
 .button-green {
@@ -44,14 +45,16 @@
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 14px 28px;
     border-radius: 5px;
-    margin-left: 226px;
+    margin-left: 38%;
+    margin-right: 35%;
+    padding: 2.3% 5% 2.3% 5%;
+
 }
 
 .yellow {
-    padding-bottom: 40px;
-    padding-top: 10px;
+    padding-bottom: 12%;
+    padding-top: 0.1%;
 }
 
 .button-yellow {
@@ -62,13 +65,14 @@
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 14px 28px;
     border-radius: 5px;
-    margin-left: 226px;
+    margin-left: 38%;
+    margin-right: 35%;
+    padding: 2.3% 5% 2.3% 5%;
 }
 .blue {
-    padding-bottom: 71px;
-    padding-top: 36px;
+    padding-bottom: 12%;
+    padding-top: 4%;
 }
 
 .button-blue {
@@ -79,14 +83,15 @@
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 210px;
-    margin-right: 210px;
-    padding: 17px 50px 17px 50px;
+    border-radius: 5px;
+    margin-left: 38%;
+    margin-right: 35%;
+    padding: 2.3% 5% 2.3% 5%;
 }
 
 .white {
-    padding-bottom: 71px;
-    padding-top: 36px;
+    padding-bottom: 12%;
+    padding-top: 3%
 }
 
 .button-white {
@@ -97,9 +102,10 @@
     color: #292c34;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 210px;
-    margin-right: 210px;
-    padding: 17px 50px 17px 50px;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-right: 35%;
+    padding: 2.3% 5% 2.3% 5%;
 }
 
 .pink {
@@ -115,9 +121,10 @@
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 210px;
-    margin-right: 210px;
-    padding: 17px 50px 17px 50px;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 2.3% 5% 2.3% 5%;
 }
 
 .titulo3 {
@@ -157,35 +164,35 @@
 }
 
 .informacion1 h4 {
-    padding: 255px 45px 0px 45px;
+    padding: 80% 11.2% 0% 34.6%;
 }
 
 .informacion1 p{
-    padding: 0px 45px 55px 45px;
+    padding:  0% 11.2% 11% 24%;
 }
 
 .informacion2 h4 {
-    padding: 55px 45px 0px 45px;
+    padding: 11% 34.6% 0% 11.2%
 }
 
 .informacion2 p{
-    padding: 0px 45px 255px 45px;
+    padding:  0% 24% 80% 11.2%;
 }
 
 .informacion3 h4 {
-    padding: 255px 45px 0px 45px;
+    padding: 80% 11.2% 0% 34.6%;
 }
 
 .informacion3 p{
-    padding: 0px 45px 55px 45px;
+    padding:  0% 11.2% 11% 24%;
 }
 
 .informacion4 h4 {
-    padding: 55px 45px 0px 45px;
+    padding: 11% 34.6% 0% 11.2%;
 }
 
 .informacion4 p{
-    padding: 0px 45px 255px 45px;
+    padding: 0% 24% 80% 11.2%;
 }
 
 .informacion1 {
@@ -228,24 +235,28 @@
     position: absolute;
     top: 0px;
     left: 0px;
+    width:  100%;
 }
 
 #img2 {
     position: absolute;
-    top: 287px;
+    top: 267px;
     left: 0px;
+    width:  100%;
 }
 
 #img3 {
     position: absolute;
     top: 0px;
     left: 0px;
+    width:  100%;
 }
 
 #img4 {
     position: absolute;
-    top: 285px;
+    top: 265px;
     left: 0px;
+    width:  100%;
 }
 
 .galleria {
