@@ -609,3 +609,9 @@ body {
 
 .footer a {
   color: #797c82; }
+
+@media (max-width: 767px) {
+  .box img {
+    width: 100%; }
+  .galleria img {
+    width: 100%; } }
